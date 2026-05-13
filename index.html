@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="黄小淇的个人主页，展示产品思维、计算机科学背景、项目经历与生活灵感。"
+    />
+    <title>黄小淇 | Product &amp; CS Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Noto+Sans+SC:wght@400;500;700;900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="cursor-dot" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="回到首页">HXQ</a>
+      <nav class="nav" aria-label="主要导航">
+        <a href="#skills">技能</a>
+        <a href="#projects">项目</a>
+        <a href="#sense">洞察</a>
+        <a href="#life">生活</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="切换暗黑模式" aria-pressed="false">
+        <span class="sun" aria-hidden="true"></span>
+        <span class="moon" aria-hidden="true"></span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Product Management · Computer Science · Shenzhen</p>
+          <h1>黄小淇</h1>
+          <p class="hero-lead">
+            哈尔滨工业大学（深圳）计算机科学与技术学院本科生，关注产品设计、数据分析与技术沟通。
+          </p>
+          <div class="hero-actions" aria-label="快捷操作">
+            <a class="btn primary" href="mailto:x6617370@gmail.com" aria-label="发送邮件">
+              <span data-icon="mail"></span>
+              Email
+            </a>
+            <a class="btn" href="assets/resume-huang-xiaoqi.pdf" download>
+              <span data-icon="download"></span>
+              PDF Resume
+            </a>
+            <a class="btn ghost" href="https://github.com/Sophia-xq" target="_blank" rel="noreferrer">
+              <span data-icon="github"></span>
+              GitHub
+            </a>
+          </div>
+        </div>
+
+        <aside class="profile-panel" aria-label="基础信息">
+          <figure class="avatar">
+            <img src="assets/profile-photo.jpg" alt="黄小淇个人照片" />
+          </figure>
+          <dl class="profile-list">
+            <div>
+              <dt>Born</dt>
+              <dd>2005.2</dd>
+            </div>
+            <div>
+              <dt>Base</dt>
+              <dd>广东深圳</dd>
+            </div>
+            <div>
+              <dt>Email</dt>
+              <dd><a href="mailto:x6617370@gmail.com">x6617370@gmail.com</a></dd>
+            </div>
+            <div>
+              <dt>WeChat</dt>
+              <dd>Q999876665</dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <section class="section two-column" id="about">
+        <div>
+          <p class="section-kicker">Education</p>
+          <h2>教育背景</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <time>2023.9 - 2027.6 expected</time>
+            <h3>哈尔滨工业大学（深圳）</h3>
+            <p>计算机科学与技术学院</p>
+          </article>
+          <article class="timeline-item">
+            <time>2024</time>
+            <h3>高教社杯全国大学生数学建模大赛</h3>
+            <p>省级三等奖</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section-heading">
+          <p class="section-kicker">Skill Tree</p>
+          <h2>产品手艺 + 技术底盘</h2>
+        </div>
+
+        <div class="skill-grid">
+          <article class="skill-card">
+            <h3>Product Management Tools</h3>
+            <ul class="tool-list">
+              <li><strong>Figma</strong><span>UI/UX 交互与原型设计</span></li>
+              <li><strong>Axure</strong><span>复杂逻辑高保真原型</span></li>
+              <li><strong>Notion</strong><span>PRD 文档与团队协作</span></li>
+              <li><strong>ProcessOn</strong><span>流程图、状态机、时序图</span></li>
+              <li><strong>SQL</strong><span>数据抓取与查询分析</span></li>
+              <li><strong>Python</strong><span>Pandas / Matplotlib 自动化分析</span></li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <h3>Skill Stack - CS Background</h3>
+            <div class="icon-shelf" aria-label="编程语言与工具">
+              <div class="tech-icon"><span>Py</span><small>Python</small></div>
+              <div class="tech-icon"><span>C</span><small>C</small></div>
+              <div class="tech-icon"><span>Jv</span><small>Java</small></div>
+              <div class="tech-icon"><span>Git</span><small>Git</small></div>
+            </div>
+            <p class="compact-copy">
+              能从数据脚本、算法逻辑到团队协作链路理解开发过程，减少产品与工程之间的翻译成本。
+            </p>
+          </article>
+
+          <article class="skill-card wide">
+            <h3>Technical Reserve / Communication Bridge</h3>
+            <div class="tag-cloud">
+              <span>RESTful API</span>
+              <span>抓包定位</span>
+              <span>MySQL 索引</span>
+              <span>查询优化</span>
+              <span>算法复杂度</span>
+              <span>数据结构</span>
+              <span>高并发</span>
+              <span>技术可行性评估</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <p class="section-kicker">Project Showcase</p>
+          <h2>项目橱窗</h2>
+        </div>
+
+        <article class="project">
+          <div class="project-media">
+            <img src="assets/aircraft-war-preview.svg" alt="Android 版飞机大战项目预览图" />
+          </div>
+          <div class="project-copy">
+            <p class="project-label">Android Game · Java</p>
+            <h3>Android 版飞机大战</h3>
+            <p>
+              面向移动端的经典射击游戏实现，围绕触控操作、敌机生成、碰撞检测与得分反馈搭建完整游戏循环。
+            </p>
+            <div class="project-points">
+              <div>
+                <strong>Problem</strong>
+                <span>将经典游戏体验迁移到移动端，保证操作直觉与反馈节奏。</span>
+              </div>
+              <div>
+                <strong>Solution</strong>
+                <span>使用 Android 原生能力组织界面、事件响应与游戏状态更新。</span>
+              </div>
+              <div>
+                <strong>Technical Gap</strong>
+                <span>评估帧刷新、碰撞判定与资源加载对性能和体验的影响。</span>
+              </div>
+              <div>
+                <strong>Impact</strong>
+                <span>形成可运行的完整游戏项目，可继续扩展关卡、道具和排行榜。</span>
+              </div>
+            </div>
+            <div class="chips">
+              <span>Android</span>
+              <span>Java</span>
+              <span>Game Loop</span>
+              <span>Touch Control</span>
+            </div>
+            <a class="btn primary" href="https://github.com/Sophia-xq/AircraftWar" target="_blank" rel="noreferrer">
+              <span data-icon="external"></span>
+              View GitHub
+            </a>
+          </div>
+        </article>
+      </section>
+
+      <section class="section insight-band" id="sense">
+        <div class="section-heading">
+          <p class="section-kicker">Product Sense</p>
+          <h2>产品分析与洞察</h2>
+        </div>
+        <div class="insight-grid">
+          <article class="report-card">
+            <div class="report-topline">
+              <span>Product Analysis</span>
+              <strong>NOTION</strong>
+            </div>
+            <h3>ChatGPT 产品分析报告</h3>
+            <p>
+              从用户场景、核心功能、交互体验与产品增长视角拆解 ChatGPT，沉淀 AI 助手类产品的体验观察与优化思路。
+            </p>
+            <div class="report-highlights">
+              <span>AI 助手</span>
+              <span>用户体验</span>
+              <span>功能拆解</span>
+              <span>产品优化</span>
+            </div>
+            <a
+              class="btn primary"
+              href="https://www.notion.so/ChatGPT-35b9a350e2d380a2baf1d05a58f1a5bd?source=copy_link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span data-icon="external"></span>
+              阅读 Notion 报告
+            </a>
+          </article>
+          <article>
+            <h3>下一篇洞察</h3>
+            <p>预留 App 拆解、AI 产品趋势观察、社交或电商赛道随笔。会陆续把 PRD、竞品表和功能优化建议等继续沉淀在这里。</p>
+            <a href="mailto:x6617370@gmail.com?subject=Product%20Analysis">联系交流</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section life-section" id="life">
+        <div class="section-heading">
+          <p class="section-kicker">The Human Me</p>
+          <h2>生活与灵感</h2>
+        </div>
+        <div class="life-layout">
+          <div class="life-stack">
+            <aside class="reading-card" aria-label="阅读书单">
+              <h3>阅读</h3>
+              <div class="book-groups">
+                <section>
+                  <img src="assets/romance-books.jpg" alt="言情书单配图" />
+                  <div>
+                    <h4>言情</h4>
+                    <p>探花 · 情不忍释 · 渭北春天树 · 野狗骨头 · 日落后的蓝色时刻 · …</p>
+                  </div>
+                </section>
+                <section>
+                  <img src="assets/literature-books.jpg" alt="文学书单配图" />
+                  <div>
+                    <h4>文学</h4>
+                    <p>窄门 · 傲慢与偏见 · 呼啸山庄 · 红与黑 · 活着 · …</p>
+                  </div>
+                </section>
+                <section>
+                  <img src="assets/product-books.jpg" alt="专业相关书单配图" />
+                  <div>
+                    <h4>专业相关</h4>
+                    <p>人人都是产品经理 · 俞军产品方法论 · 如何快速了解一个行业 · …</p>
+                  </div>
+                </section>
+              </div>
+            </aside>
+            <article class="playlist-card" aria-label="QQ 音乐灵感歌单">
+              <div class="playlist-copy">
+                <p class="project-label">QQ Music Playlist</p>
+                <h3>我的灵感歌单</h3>
+                <div class="artist-list" aria-label="喜欢的歌曲列表">
+                  <section class="artist-card">
+                    <img src="assets/taylor-swift-playlist.jpg" alt="Taylor Swift 歌单插图" />
+                    <div>
+                      <h4>Taylor Swift</h4>
+                      <p>Cruel Summer · Anti-hero · ME! · Opalite · Style · Lover · Red · Enchanted · …</p>
+                    </div>
+                  </section>
+                  <section class="artist-card">
+                    <img src="assets/blackpink-playlist.jpg" alt="BLACKPINK 歌单插图" />
+                    <div>
+                      <h4>BLACKPINK</h4>
+                      <p>Kill This Love · BOOMBAYAH · WHISTLE · Pink Venom · Forever Young · Hard to Love · STAY · You Never Know · …</p>
+                    </div>
+                  </section>
+                  <section class="artist-card">
+                    <img src="assets/aga-playlist.jpg" alt="AGA 歌单插图" />
+                    <div>
+                      <h4>AGA</h4>
+                      <p>孤雏 · 圆 · 小问题 · 3AM · Gas Station Diner · So Called Love Song · Tomorrow · Two at a time · …</p>
+                    </div>
+                  </section>
+                </div>
+                <a
+                  class="btn primary"
+                  href="https://c6.y.qq.com/base/fcgi-bin/u?__=oIhLAxB0MdJJ"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span data-icon="external"></span>
+                  在 QQ 音乐中开启我的灵感歌单
+                </a>
+              </div>
+            </article>
+            <div class="map-card" aria-label="交互式足迹地图">
+              <div class="map-toolbar">
+                <div>
+                  <strong>Footprint Map</strong>
+                  <span id="footprintStatus">读取本地示例数据</span>
+                </div>
+                <a class="map-config-link" href="docs/footprint-data-source.md">数据源配置</a>
+              </div>
+              <div id="footprintMap" class="footprint-map" role="img" aria-label="黄小淇的交互式足迹地图"></div>
+              <p>地图从 Google Sheets CSV 同步。新增一行地点数据后，刷新网页即可更新足迹😊</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© 2026 黄小淇</span>
+      <a href="mailto:x6617370@gmail.com">x6617370@gmail.com</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+    <script src="footprints.config.js"></script>
+    <script src="footprint-map.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
