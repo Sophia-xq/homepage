@@ -521,6 +521,21 @@ dd {
   object-fit: cover;
 }
 
+.project-media-contain {
+  min-height: 360px;
+  padding: 16px;
+  background:
+    linear-gradient(135deg, rgba(13, 143, 131, 0.12), rgba(230, 107, 85, 0.12)),
+    var(--surface-soft);
+}
+
+.project-media-contain img {
+  height: auto;
+  max-height: 100%;
+  object-fit: contain;
+  align-self: center;
+}
+
 .project-copy {
   padding: 18px 10px 18px 0;
 }
@@ -896,6 +911,10 @@ dd {
 
   .project-copy {
     padding: 8px 4px 10px;
+  }
+
+  .project-media-contain {
+    min-height: 260px;
   }
 
   .footer {
