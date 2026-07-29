@@ -503,6 +503,10 @@ dd {
   padding: 18px;
 }
 
+.project + .project {
+  margin-top: 18px;
+}
+
 .project-media {
   display: grid;
   align-items: stretch;
